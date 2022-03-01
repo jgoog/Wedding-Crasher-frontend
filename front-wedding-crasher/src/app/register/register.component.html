@@ -1,0 +1,53 @@
+
+<div class="logo d-flex justify-content-center ">
+    <img class="img"   src="../assets/images/Wedding Crasher-logos.jpeg"/>
+  </div>
+  
+  <!-- <h1 class="d-flex justify-content-center p-4">{{title}}</h1> -->
+ 
+
+<section class="register d-flex justify-content-center">
+<div class="modal-body d-flex justify-content-center">
+<form action="login" method="post">
+    <!-- 2 column grid layout with text inputs for the first and last names -->
+    <div class="modal-header">
+        <h5 class="modal-title">Login</h5>
+        </div>
+    <!-- <div class="row mb-4">
+      <div class="col">
+        <div class="form-outline">
+          <input type="text" id="first-name" class="form-control" />
+          <label class="form-label" for="first-name">First name</label>
+        </div>
+      </div>
+      <div class="col">
+        <div class="form-outline">
+          <input type="text" id="last-name" class="form-control" />
+          <label class="form-label" for="last-name">Last name</label>
+        </div>
+      </div>
+    </div> -->
+  
+    <!-- Email input -->
+    <div class="form-outline mb-4">
+      <input type="email" id="email" name="email" class="form-control" [(ngModel)]="email" />
+      <label class="form-label" for="email">Email address</label>
+    </div>
+  
+    <!-- Password input -->
+    <div class="form-outline mb-4">
+      <input type="password" id="form3Example4" name="password" class="form-control" [(ngModel)]="password" />
+      <label class="form-label" for="password">Password</label>
+    </div>
+  
+    
+  
+    <!-- Submit button -->
+    <button type="submit" class="btn btn-primary btn-block mb-4" (click)="doLogin()">Login</button>
+  
+    <!-- Register buttons -->
+
+  </form>
+</div>
+</section>
+<router-outlet></router-outlet>

@@ -1,0 +1,19 @@
+.register{
+    height: 60vh;
+    width:  300px;
+    margin-left: 80px;
+  }
+  
+  .logo {
+    display: inline-block;
+    margin-right: 8px;
+    color: #a5d8ff;
+    padding: 0 10px;
+    
+  }
+  
+
+  .cover-img {
+    width: 80%;
+    height: 100%;
+  }
