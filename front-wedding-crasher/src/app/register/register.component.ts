@@ -16,8 +16,16 @@ export class RegisterComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  test(){
+    let resp = this.service.world();
+    resp.subscribe(data=>{
+      console.log(data)
+    })
+  }
+
 
   doLogin(){
+    
     let resp = this.service.login(this.email,this.password);
     resp.subscribe(data=>{
       console.log(data)
