@@ -23,7 +23,7 @@ At a later time I would like to build the validator to scan the user and also be
 ![orginialWeddingCrasher.jpg](/planning/orginialWeddingCrasher.jpg)
 
 ## Planning and Timeline
-I implemented the MVC design for this project which has a simple approach to it. The user interacts with the view which talks to the controller and the controller talks to the model as you can see in the diagram.
+I implemented the MVC design for this project which has a simple approach to it. The user interacts with the view which talks to the controller and the controller talks to the model. Then a seating chart is provided. I wanted to keep it simple user logins and barcode is provided I added the seating chart as a new feature.
 ![homePageWeddingCrasher.jpg](/planning/homePageWeddingCrasher.jpg)
 ![WeddingCrasherQRCode.jpg](/planning/WeddingCrasherQRCode.jpg)
 ![MVC.jpg](/Image/Images/MVC.jpg)
@@ -32,31 +32,20 @@ Timeline :
 - Day 2 : Create service and controllers 
 - Day 3:Create Excetion handling for all endpoints 
 - Day 4: configure login and security for all endpoints and fix bugs 
+- Day 5 -8: Work on frontend and connect to back end
 
 In this project I created:
-- 5 models
-- 3 service classes
-- 5 repository interface classes
+- 1 model
+- 1 service classe
+- 1 repository interface classes
 - 2 controller classes 
-- 15 endpoints 2 of them are public for the user to register and login
+- 2 endpoints 2  for the user to login
+- Angular for the front end
 
-# Endpoints
+# Final Product
 
-| ENDPOINT | FUNCTIONALITY | PUBLIC |
-| --- | :--- |:--- |
-| POST _/api/posts/{postId}/comment_ | POST new comment | NO |
-| GET _/api/posts/{postId}/comment_ | GET all comments on post | NO |
-| GET _/api/posts/{postId}/comment_{commentId}/ | Get one comment on post | NO |
-| DEL _/api/posts/{postId}/comment/{commentId}_ | DELETE comment on post | NO |
-| POST _/api/posts/{postId}/photo_ | POST new photo | NO |
-| GET _/api/posts/{postId}/photo_ | GET all photos on post | NO |
-| GET _/api/posts/{postId}/photo/{photoId}_ | GET one photo on post | NO |
-| DEL _/api/posts/{postId}/photo/{photoId}_ | DELETE a photo on post | NO |
-| GET _/api/posts/_ | GET all post | NO |
-| POST _/api/posts/_ | POST create post | NO |
-| GET _/api/posts/{postId}/_ | GET post | NO |
-| PUT _/api/posts/{postId}/_ | UPDATE post | YES |
-| DEL _/api/posts/{postId}/_ | DELETE post | YES|
+![loginpage.jpg](/planning/loginpage.jpg)
+![qrpage.jpg](/planning/qrpage.jpg)
 
 # Machineries Used
 
@@ -68,6 +57,10 @@ In this project I created:
  - StackFlow : help for debugging
  - Youtube: learn about annotations and JWT
  - Json Web Tokens (JWT) : what I used for authentication
+ - Angular
+ - Bootstrap
+ - Heroku for deployment
+ - 
 
  # User Stories
 Type of user As a wedding guest
