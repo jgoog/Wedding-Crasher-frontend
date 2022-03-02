@@ -26,7 +26,6 @@ At a later time I would like to build the validator to scan the user and also be
 I implemented the MVC design for this project which has a simple approach to it. The user interacts with the view which talks to the controller and the controller talks to the model. Then a seating chart is provided. I wanted to keep it simple user logins and barcode is provided I added the seating chart as a new feature.
 ![homePageWeddingCrasher.jpg](/planning/homePageWeddingCrasher.jpg)
 ![WeddingCrasherQRCode.jpg](/planning/WeddingCrasherQRCode.jpg)
-![MVC.jpg](/Image/Images/MVC.jpg)
 Timeline :
 - Day 1: create all models,packages and repos  
 - Day 2 : Create service and controllers 
@@ -42,9 +41,11 @@ In this project I created:
 - 2 endpoints 2  for the user to login
 - Angular for the front end
 
-# Final Product
+# Final Product  Login Page
 
 ![loginpage.jpg](/planning/loginpage.jpg)
+
+# QR page 
 ![qrpage.jpg](/planning/qrpage.jpg)
 
 # Machineries Used
