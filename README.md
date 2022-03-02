@@ -65,36 +65,27 @@ In this project I created:
 
  # User Stories
 Type of user As a wedding guest
-TASK I want to be able to make a post. 
-GOAL so that I can interact with other guest.
+TASK I want to be able to login.
+GOAL so that I can validate that I'm on the list.
 - ACCEPTANCE CRITERIA
-GIVEN Given I’m in the role of logged in bride/groom.
--WHEN when I open the app I’m able to reply to a comment that a guest left.
-THEN the app saves my comment and the app shows comment.
+GIVEN Given I’m in the role of logged in guest.
+-WHEN when I open the app I want to be able to login.
+THEN the app gives me my QR code.
 
 As a wedding guest
-I Want to be able to create an account
-So that the couple knows who I am.
+I Want to be able to view seating assignment
+So that I know where to go when I arrive.
 - ACCEPTANCE CRITERIA
-GIVEN Given I am in the role of unregistered user/wedding guest
-WHEN I open the app there is a place for me enter my email, username and password.
-THEN the app saves my credentials and I am able to login into the account.
+GIVEN Given I am in the role of guest
+WHEN I open the app there is a place for me enter my email and password.
+THEN the app shows me the chart.
 
 
-As a signed in user/wedding guest
-I Want to be able to post comments and post pictures
-So that the couple can see what an amazing time I had.
-- ACCEPTANCE CRITERIA
-GIVEN Given I’m in the role of logged in wedding guest
-WHEN when I open the app I’m able to post a comment or a picture.
-THEN the app saves my comment or picture and the app shows my picture or comment.
 
-1. As a user I can get all comments on a post.
 1. As a user I can  login into my account.
-1. As a user I can delete a post.
-1. As a user I can delete a comment.
-1. As a user I can delete a photo.
-1. As a user I can post a photo.
+1. As a user I can view QR code.
+1. As a user I can view seatin assignment.
+
 
 
 ## Project Challenges
