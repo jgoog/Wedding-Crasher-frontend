@@ -11,6 +11,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 
 import { RestapiService } from './restapi.service';
+import { AuthGuard } from './helpers/auth.guard';
 
 
 
@@ -29,7 +30,7 @@ import { RestapiService } from './restapi.service';
     RouterModule
 
   ],
-  providers: [],
+  providers: [AuthGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
