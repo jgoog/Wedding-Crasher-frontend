@@ -18,12 +18,14 @@ So my thinking proccess orginally was an app that gives the guest a barcode to s
 ![finalerd.jpg](/planning/finalerd.jpg)
 
 ## Original ERD Diagram (ERD):
-At a later time I would like to add anoter model for users to reply to comments and leave comments on pictures.
+At a later time I would like to build the validator to scan the user and also be able to validate the guest of the invitee.
 
-![futureERD.jpg](/Image/Images/futureERD.jpg)
+![orginialWeddingCrasher.jpg](/planning/orginialWeddingCrasher.jpg)
 
 ## Planning and Timeline
 I implemented the MVC design for this project which has a simple approach to it. The user interacts with the view which talks to the controller and the controller talks to the model as you can see in the diagram.
+![homePageWeddingCrasher.jpg](/planning/homePageWeddingCrasher.jpg)
+![WeddingCrasherQRCode.jpg](/planning/WeddingCrasherQRCode.jpg)
 ![MVC.jpg](/Image/Images/MVC.jpg)
 Timeline :
 - Day 1: create all models,packages and repos  
