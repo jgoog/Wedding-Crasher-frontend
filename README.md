@@ -15,7 +15,7 @@ In this project I applied REST API for a Wedding Crasher application, which allo
 ## Entity Relationship Diagram (ERD):
 So my thinking proccess orginally was an app that gives the guest a barcode to scan guest as they come in and automatically fills them into a database almost like a check in type app. Mitgates wedding crashers and can compare the guest you expected to come against who shows up even if someone tells them to download the app. 
 
-![finalerd.jpg](/Image/Images/finalerd.jpg)
+![finalerd.jpg](/planning/finalerd.jpg)
 
 ## Original ERD Diagram (ERD):
 At a later time I would like to add anoter model for users to reply to comments and leave comments on pictures.
