@@ -8,7 +8,7 @@
 
 ## **Ever wonder what sneaky person was able to slither their way into a wedding. Looking no further this is the solution!**
 
-![crasher.jpg](/front-wedding-crasher/src/assets/Images/crasher.jpg)
+![crasher.jpg](/front-wedding-crasher/src/assets/images/crasher.jpg)
 
 In this project I applied REST API for a Wedding Crasher application, which allows users to be validated at the door and also a seating chart provided to help them find the correct table. The user will login based on the information provided for the invites.So accounts are already made the password will be their last name.
 
