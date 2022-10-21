@@ -3,7 +3,7 @@
 
 
 ## Set up 
-1. This will be the front end portion of the Wedding Crasher app.
+1. This will be the front end portion of the Wedding Crasher app
 
 
 ## **Ever wonder what sneaky person was able to slither their way into a wedding. Looking no further this is the solution!**
